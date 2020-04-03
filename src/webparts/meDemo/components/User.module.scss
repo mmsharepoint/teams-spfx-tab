@@ -1,0 +1,19 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.user {
+  .row {
+    @include ms-Grid-row;
+  }
+  .fullCol {
+    @include ms-Grid-col;
+    @include ms-sm12;
+  }
+  .leftCol {
+    @include ms-Grid-col;
+    @include ms-sm2;
+  }
+  .rightCol {
+    @include ms-Grid-col;
+    @include ms-smInitial commit10;
+  }
+}
